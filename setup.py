@@ -64,7 +64,7 @@ setup(name='pbxproj',
       url="http://github.com/kronenthaler/mod-pbxproj",
       version=find_version("pbxproj", "__init__.py"),
       license='MIT License',
-      install_requires=['openstep_parser==1.5.3', 'docopt', 'future'],
+      install_requires=['git+https://github.com/mytours/openstep-parser.git@master', 'docopt', 'future'],
       packages=find_packages(exclude=['tests']),
       setup_requires=[],
       cmdclass={})
